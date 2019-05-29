@@ -1,0 +1,40 @@
+.big {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.big .image {
+  width: 350px;
+  height: 500px;
+}
+
+.big .image img {
+  width: auto;
+  height: 100%;
+}
+
+.big .content {
+  width: 524px;
+  height: 700px;
+}
+
+.big .content h3 {
+  padding-top: 125px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.75rem;
+  font-family: "Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.big .content p {
+  font-family: "Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+  font-size: 16px;
+}
+
+.blue {
+  color: blue;
+}
